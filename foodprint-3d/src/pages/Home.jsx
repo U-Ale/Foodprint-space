@@ -1,9 +1,10 @@
+import "../css/home.css";
 
 function Home() {
   return (
     <main className="home">
 
-      {/* HERO */}
+      {/* A - HERO */}
       <section className="hero">
         <div className="hero-content">
           <h1>Alimentando a próxima geração da exploração espacial</h1>
