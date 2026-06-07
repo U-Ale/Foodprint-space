@@ -13,45 +13,57 @@ import Contato from "./pages/Contato";
 
 function App() {
   const [pagina, setPagina] = useState("home");
-
+  const [menuAberto, setMenuAberto] = useState(false);
   return (
     
     <>
  
-      <nav>
-      
+      <nav className="navbar">
 
-        <button onClick={() => setPagina("contato")}>
-         Contato
-        </button>
+  <h2 className="logo">
+    Source Code
+  </h2>
 
-        <button onClick={() => setPagina("home")}>
-          Home
-        </button>
+  <button
+    className="hamburguer"
+    onClick={() => setMenuAberto(!menuAberto)}
+  >
+    ☰
+  </button>
 
-         <button onClick={() => setPagina("impressora")}>
-          Impressora
-         </button>
+  <div className={`menu ${menuAberto ? "ativo" : ""}`}>
 
-        <button 
-        onClick={() => setPagina("sobre")}>
-          Sobre
-        </button>
+    <button onClick={() => setPagina("home")}>
+      Home
+    </button>
 
-        <button 
-        onClick={() => setPagina("integrantes")}>
-         Integrantes
-        </button> 
-         
-        <button
-         onClick={() => setPagina("faq")}>
-          FAQ
-        </button>
-        <button
-         onClick={() => setPagina("producao")}>
-          Produção
-        </button>
-      </nav>
+    <button onClick={() => setPagina("sobre")}>
+      Sobre
+    </button>
+
+    <button onClick={() => setPagina("producao")}>
+      Produção
+    </button>
+
+    <button onClick={() => setPagina("impressora")}>
+      Impressora
+    </button>
+
+    <button onClick={() => setPagina("faq")}>
+      FAQ
+    </button>
+
+    <button onClick={() => setPagina("contato")}>
+      Contato
+    </button>
+
+    <button onClick={() => setPagina("integrantes")}>
+      Integrantes
+    </button>
+
+  </div>
+
+</nav>
 
       {pagina === "home" && <Home />}
       {pagina === "faq" && <FAQ />}

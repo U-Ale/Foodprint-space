@@ -1,45 +1,67 @@
-function Navbar({ pagina, setPagina }) {
-  return (
-    <nav className="navbar">
+<nav className="navbar">
 
-      <div className="logo">
-        SOURCE CODE
-      </div>
+  <h2 className="logo">
+    Source Code
+  </h2>
 
-      <div className="nav-links">
+  <button
+    className="hamburguer"
+    onClick={() => setMenuAberto(!menuAberto)}
+  >
+    ☰
+  </button>
 
-        <button
-          className={pagina === "home" ? "active" : ""}
-          onClick={() => setPagina("home")}
-        >
-          Home
-        </button>
+  <div className={`menu ${menuAberto ? "ativo" : ""}`}>
 
-        <button
-          className={pagina === "impressora" ? "active" : ""}
-          onClick={() => setPagina("impressora")}
-        >
-          Impressora
-        </button>
+    <button onClick={() => {
+      setPagina("home");
+      setMenuAberto(false);
+    }}>
+      Home
+    </button>
 
-        <button
-          className={pagina === "faq" ? "active" : ""}
-          onClick={() => setPagina("faq")}
-        >
-          FAQ
-        </button>
+    <button onClick={() => {
+      setPagina("sobre");
+      setMenuAberto(false);
+    }}>
+      Sobre
+    </button>
 
-        <button
-          className={pagina === "contato" ? "active" : ""}
-          onClick={() => setPagina("contato")}
-        >
-          Contato
-        </button>
+    <button onClick={() => {
+      setPagina("producao");
+      setMenuAberto(false);
+    }}>
+      Produção
+    </button>
 
-      </div>
+    <button onClick={() => {
+      setPagina("impressora");
+      setMenuAberto(false);
+    }}>
+      Impressora
+    </button>
 
-    </nav>
-  );
-}
+    <button onClick={() => {
+      setPagina("faq");
+      setMenuAberto(false);
+    }}>
+      FAQ
+    </button>
 
-export default Navbar;
+    <button onClick={() => {
+      setPagina("contato");
+      setMenuAberto(false);
+    }}>
+      Contato
+    </button>
+
+    <button onClick={() => {
+      setPagina("integrantes");
+      setMenuAberto(false);
+    }}>
+      Integrantes
+    </button>
+
+  </div>
+
+</nav>

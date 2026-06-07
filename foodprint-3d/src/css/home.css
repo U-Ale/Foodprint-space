@@ -381,3 +381,112 @@ body {
 }
 
 
+
+
+/* ===== J - NAVBAR =====  */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 30px;
+
+  background: rgba(10, 10, 18, 0.95);
+
+  border-bottom: 2px solid #a855f7;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  color: #a855f7;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+}
+
+.menu {
+  display: flex;
+  gap: 12px;
+}
+
+.menu button {
+  background: transparent;
+
+  border: 1px solid #a855f7;
+
+  color: white;
+
+  padding: 10px 16px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.menu button:hover {
+  background: #a855f7;
+  color: white;
+
+  transform: translateY(-2px);
+}
+
+.hamburguer {
+  display: none;
+
+  background: none;
+  border: none;
+
+  color: #facc15;
+
+  font-size: 2rem;
+
+  cursor: pointer;
+}
+
+/* ========================= */
+/* RESPONSIVO */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+  .hamburguer {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+
+    position: absolute;
+
+    top: 75px;
+    right: 15px;
+
+    width: 240px;
+
+    background: #111827;
+
+    border: 1px solid #a855f7;
+
+    border-radius: 15px;
+
+    padding: 15px;
+
+    flex-direction: column;
+
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.3);
+  }
+
+  .menu.ativo {
+    display: flex;
+  }
+
+  .menu button {
+    width: 100%;
+  }
+}
