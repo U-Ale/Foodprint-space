@@ -8,12 +8,19 @@ import Impressora from "./pages/Impressora";
 import Producao from "./pages/Producao";
 import Contato from "./pages/Contato";
 
+
+
+
 function App() {
   const [pagina, setPagina] = useState("home");
 
   return (
+    
     <>
+ 
       <nav>
+      
+
         <button onClick={() => setPagina("contato")}>
          Contato
         </button>

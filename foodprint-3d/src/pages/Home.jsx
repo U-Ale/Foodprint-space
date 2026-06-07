@@ -1,4 +1,4 @@
-import "../css/home.css";
+
 
 function Home() {
   return (
@@ -15,9 +15,6 @@ function Home() {
             para missões espaciais de longa duração.
           </p>
 
-          <button className="btn-principal">
-            Conhecer a Solução
-          </button>
         </div>
       </section>
 
@@ -112,9 +109,6 @@ function Home() {
           exploração espacial.
         </h2>
 
-        <button className="btn-principal">
-          Explorar Plataforma
-        </button>
       </section>
 
     </main>
