@@ -33,33 +33,66 @@ function App() {
 
   <div className={`menu ${menuAberto ? "ativo" : ""}`}>
 
-    <button onClick={() => setPagina("home")}>
-      Home
-    </button>
+<button
+  onClick={() => {
+    setPagina("home");
+    setMenuAberto(false);
+  }}
+>
+  Home
+</button>
 
-    <button onClick={() => setPagina("sobre")}>
-      Sobre
-    </button>
+<button
+  onClick={() => {
+    setPagina("sobre");
+    setMenuAberto(false);
+  }}
+>
+  Sobre
+</button>
 
-    <button onClick={() => setPagina("producao")}>
-      Produção
-    </button>
+<button
+  onClick={() => {
+    setPagina("producao");
+    setMenuAberto(false);
+  }}
+>
+  Produção
+</button>
+<button
+  onClick={() => {
+    setPagina("impressora");
+    setMenuAberto(false);
+  }}
+>
+  Impressora
+</button>
 
-    <button onClick={() => setPagina("impressora")}>
-      Impressora
-    </button>
+<button
+  onClick={() => {
+    setPagina("faq");
+    setMenuAberto(false);
+  }}
+>
+  FAQ
+</button>
 
-    <button onClick={() => setPagina("faq")}>
-      FAQ
-    </button>
-
-    <button onClick={() => setPagina("contato")}>
-      Contato
-    </button>
-
-    <button onClick={() => setPagina("integrantes")}>
-      Integrantes
-    </button>
+<button
+  onClick={() => {
+    setPagina("contato");
+    setMenuAberto(false);
+  }}
+>
+  contato
+</button>
+<button
+  onClick={() => {
+    setPagina("integrantes");
+    setMenuAberto(false);
+  }}
+>
+  Integrantes
+</button>
 
   </div>
 

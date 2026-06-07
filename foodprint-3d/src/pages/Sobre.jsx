@@ -1,26 +1,38 @@
 function Sobre() {
   return (
-    <main>
+    <main className="sobre">
+
       <h1>Sobre a Source Code</h1>
 
-      <p>
-        A Source Code é uma startup focada em desenvolver soluções
-        tecnológicas para a produção sustentável de alimentos em
-        missões espaciais.
-      </p>
+      <section className="sobre-card">
+        <p>
+          A Source Code é uma startup focada em desenvolver soluções
+          tecnológicas para a produção sustentável de alimentos em
+          missões espaciais.
+        </p>
+      </section>
 
-      <h2>Objetivo</h2>
+      <section className="sobre-grid">
 
-      <p>
-        Garantir autonomia alimentar para astronautas através
-        do monitoramento de recursos e impressão 3D de alimentos.
-      </p>
+        <div className="sobre-box">
+          <h2>🎯 Objetivo</h2>
 
-      <h2>Missão</h2>
+          <p>
+            Garantir autonomia alimentar para astronautas através
+            do monitoramento de recursos e impressão 3D de alimentos.
+          </p>
+        </div>
 
-      <p>
-        Tornar a exploração espacial mais sustentável e eficiente.
-      </p>
+        <div className="sobre-box">
+          <h2>🚀 Missão</h2>
+
+          <p>
+            Tornar a exploração espacial mais sustentável e eficiente.
+          </p>
+        </div>
+
+      </section>
+
     </main>
   );
 }

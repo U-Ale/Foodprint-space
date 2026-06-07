@@ -1,13 +1,13 @@
 function Producao() {
   return (
-    <main>
+    <main className="producao">
 
-      <section>
+      <section className="producao-hero">
         <h1>Centro de Produção Espacial</h1>
 
         <p>
           Monitoramento em tempo real das matérias-primas utilizadas pela
-          impressora 3D de alimentos da Source Code.
+          impressora 3D alimentar da Source Code.
         </p>
       </section>
 
@@ -15,29 +15,29 @@ function Producao() {
 
         <h2>Estado dos Cultivos</h2>
 
-        <div>
+        <div className="producao-grid">
 
-          <div>
+          <div className="producao-card">
             <h3>🌱 Ervilha</h3>
-            <p>Estoque: 85%</p>
+            <p>Estoque: 850 kg</p>
             <p>Status: Estável</p>
           </div>
 
-          <div>
+          <div className="producao-card">
             <h3>🌱 Soja</h3>
-            <p>Estoque: 72%</p>
+            <p>Estoque: 720 kg</p>
             <p>Status: Estável</p>
           </div>
 
-          <div>
+          <div className="producao-card">
             <h3>🍄 Micoproteína</h3>
-            <p>Estoque: 93%</p>
+            <p>Estoque: 930 kg</p>
             <p>Status: Excelente</p>
           </div>
 
-          <div>
-            <h3>🌱 Grão-de-bico</h3>
-            <p>Estoque: 65%</p>
+          <div className="producao-card">
+            <h3>🫘 Grão-de-bico</h3>
+            <p>Estoque: 650 kg</p>
             <p>Status: Atenção</p>
           </div>
 
@@ -45,7 +45,7 @@ function Producao() {
 
       </section>
 
-      <section>
+      <section className="resumo-sistema">
 
         <h2>Resumo do Sistema</h2>
 
