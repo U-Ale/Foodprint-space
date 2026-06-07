@@ -334,5 +334,50 @@ body {
 }
 
 
+/* ===== A - INTEGRANTES ===== */
+
+
+.integrantes {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 24px;
+}
+
+.integrantes h1 {
+  text-align: center;
+  color: #a855f7;
+  margin-bottom: 40px;
+}
+
+.integrantes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.integrante-card {
+  background: rgba(10, 10, 18, 0.9);
+  border: 1px solid #a855f7;
+  border-radius: 16px;
+  padding: 25px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.integrante-card:hover {
+  transform: translateY(-6px);
+  border-color: #facc15;
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
+}
+
+.integrante-card h2 {
+  color: #facc15;
+  margin-bottom: 15px;
+}
+
+.integrante-card p {
+  color: #ffffff;
+  margin: 8px 0;
+}
 
 
