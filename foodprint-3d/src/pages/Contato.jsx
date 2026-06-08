@@ -1,28 +1,52 @@
 function Contato() {
   return (
-    <main>
+    <main className="contato">
 
       <h1>Contato</h1>
 
-      <form>
+      <p className="contato-texto">
+        Entre em contato com a equipe Source Code para dúvidas,
+        sugestões ou informações sobre o projeto.
+      </p>
+
+      <div className="contato-email">
+
+        <h2>📧 Email da Source Code</h2>
+
+        <p>
+          sourcecode@foodprint3d.com
+        </p>
+
+      </div>
+
+      <form className="contato-form">
 
         <div>
           <label>Nome</label>
-          <input type="text" />
+          <input
+            type="text"
+            placeholder="Digite seu nome"
+          />
         </div>
 
         <div>
           <label>Email</label>
-          <input type="email" />
+          <input
+            type="email"
+            placeholder="Digite seu email"
+          />
         </div>
 
         <div>
           <label>Mensagem</label>
-          <textarea rows="5"></textarea>
+          <textarea
+            rows="5"
+            placeholder="Digite sua mensagem"
+          ></textarea>
         </div>
 
-        <button>
-          Enviar
+        <button type="submit">
+          Enviar Mensagem
         </button>
 
       </form>

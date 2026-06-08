@@ -397,6 +397,52 @@ body {
   color: #ffffff;
   margin: 8px 0;
 }
+/* ===== FOTOS ===== */
+
+.integrante-foto {
+  width: 140px;
+  height: 140px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+  border: 3px solid #a855f7;
+
+  margin-bottom: 15px;
+}
+
+.integrante-links {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 12px;
+
+  margin-top: 15px;
+}
+
+.integrante-links a {
+  text-decoration: none;
+
+  color: #000;
+
+  background: #facc15;
+
+  padding: 8px 14px;
+
+  border-radius: 8px;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.integrante-links a:hover {
+  background: #a855f7;
+
+  color: white;
+}
 
 
 
@@ -723,13 +769,126 @@ body {
 
 
 
+/* ===== M - CONTATO ====== */
 
 
+.contato {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 24px;
+}
 
+.contato h1 {
+  text-align: center;
+  color: #a855f7;
+  margin-bottom: 20px;
+}
 
+.contato-texto {
+  text-align: center;
+  color: #e5e7eb;
+  margin-bottom: 30px;
+}
 
+.contato-email {
+  background: rgba(15, 15, 25, 0.95);
 
+  border: 1px solid #a855f7;
 
+  border-radius: 16px;
+
+  padding: 25px;
+
+  text-align: center;
+
+  margin-bottom: 35px;
+}
+
+.contato-email h2 {
+  color: #facc15;
+  margin-bottom: 10px;
+}
+
+.contato-email p {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.contato-form {
+  background: rgba(15, 15, 25, 0.95);
+
+  border: 1px solid #a855f7;
+
+  border-radius: 16px;
+
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contato-form label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #facc15;
+
+  font-weight: bold;
+}
+
+.contato-form input,
+.contato-form textarea {
+  width: 100%;
+
+  padding: 12px;
+
+  border-radius: 10px;
+
+  border: 1px solid #a855f7;
+
+  background: #0f0f18;
+
+  color: white;
+}
+
+.contato-form input:focus,
+.contato-form textarea:focus {
+  outline: none;
+
+  border-color: #facc15;
+}
+
+.contato-form button {
+  background: #a855f7;
+
+  color: white;
+
+  border: none;
+
+  padding: 14px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.contato-form button:hover {
+  background: #9333ea;
+}
+
+@media (max-width: 768px) {
+
+  .contato {
+    padding: 40px 20px;
+  }
+
+}
 
 
 
