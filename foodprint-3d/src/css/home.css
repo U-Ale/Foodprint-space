@@ -169,6 +169,12 @@ h2 {
 
 
 
+
+
+
+
+
+
 /* A - impressora */
 /* ===== BASE ===== */
 * {
@@ -334,6 +340,18 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* ===== A - INTEGRANTES ===== */
 
 
@@ -490,6 +508,17 @@ body {
     width: 100%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /* ===== M - SOBRE ====== */
 
@@ -686,6 +715,97 @@ body {
 
   .producao-hero h1 {
     font-size: 2rem;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== A - FAQ ===== */
+
+
+.faq {
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px 24px;
+}
+
+.faq h1 {
+  text-align: center;
+  color: #a855f7;
+  margin-bottom: 40px;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faq-item {
+  background: rgba(15, 15, 25, 0.95);
+
+  border: 1px solid #a855f7;
+
+  border-radius: 14px;
+
+  overflow: hidden;
+}
+
+.faq-pergunta {
+  width: 100%;
+
+  background: transparent;
+
+  border: none;
+
+  color: #facc15;
+
+  font-size: 1.1rem;
+
+  font-weight: bold;
+
+  text-align: left;
+
+  padding: 20px;
+
+  cursor: pointer;
+}
+
+.faq-pergunta:hover {
+  background: rgba(168, 85, 247, 0.15);
+}
+
+.faq-resposta {
+  padding: 0 20px 20px;
+
+  color: white;
+
+  line-height: 1.7;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+
+  .faq {
+    padding: 40px 20px;
   }
 
 }
