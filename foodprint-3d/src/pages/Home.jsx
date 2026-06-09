@@ -6,6 +6,8 @@ function Home() {
 
       {/* A - HERO */}
       <section className="hero">
+        <div className="hero-overlay"></div>
+        
         <div className="hero-content">
           <h1>Alimentando a próxima geração da exploração espacial</h1>
 

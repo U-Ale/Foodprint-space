@@ -18,15 +18,37 @@ body {
 
 /* ===== HERO ===== */
 .hero {
-  padding: 80px 24px;
+  position: relative;
+  overflow: hidden;
+
+  min-height: 80vh;
+
   display: flex;
   justify-content: center;
+  align-items: center;
+
   text-align: center;
-  background: linear-gradient(
-    180deg,
-    rgba(168, 85, 247, 0.15),
-    transparent
-  );
+
+  padding: 80px 24px;
+}
+.hero::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background-image: url("../assets/fundos/fundura-home.jpg");
+  background-size: cover;
+  background-position: center;
+
+  opacity: 0.18;
+
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
 }
 
 .hero-content {
@@ -44,6 +66,22 @@ body {
   color: #e5e7eb;
   line-height: 1.6;
   margin-bottom: 20px;
+}
+
+.hero::after {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at top,
+      rgba(168, 85, 247, 0.18),
+      transparent 60%
+    );
+
+  z-index: 0;
 }
 
 /* ===== BOTÃO PRINCIPAL ===== */
