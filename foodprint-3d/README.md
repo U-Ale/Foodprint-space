@@ -21,6 +21,8 @@ Alexandre Prazeres
 RM: 573059
 Turma: 1TDSPO
 Função: Desenvolvedor
+
+
 <img src="./src/assets/integrantes/ale.jpg" width="200">
 
 GitHub:
@@ -36,19 +38,22 @@ RM: 571702
 Turma: 1TDSPO
 Função: Desenvolvedor
 
+<img src="./src/assets/integrantes/matheus.jpg" width="200">
+
 GitHub:
 (https://github.com/Nezio22)
 
 LinkedIn:
 (https://www.linkedin.com/in/matheus-nezio-9971b0392/)
 
-Foto:
-<img src="./src/assets/integrantes/matheus.jpg" width="200">
+
 
 Júlia Rodrigues
 RM: 571244
 Turma: 1TDSPO
 Função: Designer
+
+<img src="./src/assets/integrantes/julia.jpg" width="200">
 
 GitHub:
 (https://github.com/juliaraalmeida77-ux)
@@ -56,5 +61,4 @@ GitHub:
 LinkedIn:
 (https://www.linkedin.com/in/júlia-rodrigues-9147593a7/)
 
-Foto:
-<img src="./src/assets/integrantes/julia.jpg" width="200">
+
