@@ -1,16 +1,60 @@
-# React + Vite
+FoodPrint 3D | Source Code
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O FoodPrint 3D é uma solução desenvolvida pela equipe Source Code com o objetivo de auxiliar a alimentação sustentável em missões espaciais de longa duração.
 
-Currently, two official plugins are available:
+O sistema integra o monitoramento de matérias-primas, controle de estoque e uma impressora 3D alimentar capaz de produzir refeições utilizando ingredientes alternativos como soja, ervilha, grão-de-bico e micoproteína.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A plataforma foi desenvolvida para demonstrar como tecnologias digitais podem contribuir para a autonomia alimentar de astronautas durante futuras explorações espaciais.
 
-## React Compiler
+Tecnologias Utilizadas
+React
+Vite
+JavaScript
+HTML5
+CSS3
+Git
+GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Equipe Source Code
 
-## Expanding the ESLint configuration
+Alexandre Prazeres
+RM: 573059
+Turma: 1TDSPO
+Função: Desenvolvedor
+<img src="./src/assets/integrantes/ale.jpg" width="200">
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+GitHub:
+(https://github.com/U-Ale)
+
+LinkedIn:
+(https://www.linkedin.com/in/alexandre-prazeres-santos/)
+
+
+
+Matheus Nezio
+RM: 571702
+Turma: 1TDSPO
+Função: Desenvolvedor
+
+GitHub:
+(https://github.com/Nezio22)
+
+LinkedIn:
+(https://www.linkedin.com/in/matheus-nezio-9971b0392/)
+
+Foto:
+<img src="./src/assets/integrantes/matheus.jpg" width="200">
+
+Júlia Rodrigues
+RM: 571244
+Turma: 1TDSPO
+Função: Designer
+
+GitHub:
+(https://github.com/juliaraalmeida77-ux)
+
+LinkedIn:
+(https://www.linkedin.com/in/júlia-rodrigues-9147593a7/)
+
+Foto:
+<img src="./src/assets/integrantes/julia.jpg" width="200">
