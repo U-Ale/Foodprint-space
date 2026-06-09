@@ -14,8 +14,14 @@ import Contato from "./pages/Contato";
 function App() {
   const [pagina, setPagina] = useState("home");
   const [menuAberto, setMenuAberto] = useState(false);
-  return (
-    
+
+  const [estoque, setEstoque] = useState({
+    ervilha: 850,
+    soja: 720,
+    micoproteina: 930,
+    graoDeBico: 650
+  });
+    return (
     <>
  
       <nav className="navbar">
@@ -102,13 +108,13 @@ function App() {
       {pagina === "faq" && <FAQ />}
       {pagina === "sobre" && <Sobre />}
       {pagina === "integrantes" && <Integrantes />}
-      {pagina === "impressora" && <Impressora />}
-      {pagina === "producao" && <Producao />}
+      {pagina === "impressora" && (<Impressora estoque={estoque}setEstoque={setEstoque}/>)}
+      {pagina === "producao" && (<Producao estoque={estoque} />)}
       {pagina === "contato" && <Contato />}
     
       
     </>
-  );
+    )
 }
 
 export default App;

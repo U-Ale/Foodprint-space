@@ -1,4 +1,4 @@
-function Producao() {
+function Producao({ estoque }) {
   return (
     <main className="producao">
 
@@ -19,25 +19,25 @@ function Producao() {
 
           <div className="producao-card">
             <h3>🌱 Ervilha</h3>
-            <p>Estoque: 850 kg</p>
+            <p>Estoque: {estoque.ervilha} kg</p>
             <p>Status: Estável</p>
           </div>
 
           <div className="producao-card">
             <h3>🌱 Soja</h3>
-            <p>Estoque: 720 kg</p>
+            <p>Estoque: {estoque.soja} kg</p>
             <p>Status: Estável</p>
           </div>
 
           <div className="producao-card">
             <h3>🍄 Micoproteína</h3>
-            <p>Estoque: 930 kg</p>
+            <p>Estoque: {estoque.micoproteina} kg</p>
             <p>Status: Excelente</p>
           </div>
 
           <div className="producao-card">
             <h3>🫘 Grão-de-bico</h3>
-            <p>Estoque: 650 kg</p>
+            <p>Estoque: {estoque.graoDeBico} kg</p>
             <p>Status: Atenção</p>
           </div>
 
