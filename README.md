@@ -23,7 +23,7 @@ Turma: 1TDSPO
 Função: Desenvolvedor
 
 
-<img src="./src/assets/integrantes/ale.jpg" width="200">
+<img src="./foodprint-3d/src/assets/integrantes/ale.jpg" width="200">
 
 GitHub:
 (https://github.com/U-Ale)
@@ -38,7 +38,7 @@ RM: 571702
 Turma: 1TDSPO
 Função: Desenvolvedor
 
-<img src="./src/assets/integrantes/matheus.jpg" width="200">
+<img src="./foodprint-3d/src/assets/integrantes/matheus.jpg" width="200">
 
 GitHub:
 (https://github.com/Nezio22)
@@ -53,7 +53,7 @@ RM: 571244
 Turma: 1TDSPO
 Função: Designer
 
-<img src="./src/assets/integrantes/julia.jpg" width="200">
+<img src="./foodprint-3d/src/assets/integrantes/julia.jpg" width="200">
 
 GitHub:
 (https://github.com/juliaraalmeida77-ux)
