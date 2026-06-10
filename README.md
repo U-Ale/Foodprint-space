@@ -6,7 +6,7 @@ O sistema integra o monitoramento de matérias-primas, controle de estoque e uma
 
 A plataforma foi desenvolvida para demonstrar como tecnologias digitais podem contribuir para a autonomia alimentar de astronautas durante futuras explorações espaciais.
 
-Tecnologias Utilizadas
+/* ========== TECNOLOGIAS UTILIZADAS ========== * / 
 React
 Vite
 JavaScript
@@ -15,7 +15,48 @@ CSS3
 Git
 GitHub
 
-Equipe Source Code
+
+/* ========== COMO UTILIZAR ========== * / 
+primeiro entre na pasta pelo terminal cmd e colocque o codigo "NPM INSTALL" para puxar os arquivos necessarios para abrir em uma pagina web
+
+Após a instalação dos nodes_modules voce devera ir novamente no cmd digitar o comando "npm run dev" 
+
+Após isso você devera conseguir um link paracido com esse http://localhost:/ copie e cole no navegador
+assim que o fizer aparecera a home principal 
+
+<img src="./foodprint-3d/src/assets/exemplos/home-exemplo.jpg" width="200">
+
+a navegação devera ser feita pela nav bar logo acima 
+
+Utilizando a impressora e produção 
+
+a parte de produção está mais voltada a ser um estoque por enquanto, nela você pode ver quatos kgs de materia prima está disponivel
+para impressão de alimentos 
+
+<img src="./foodprint-3d/src/assets/exemplos/home-exemplo.jpg" width="200">
+
+Impressora 
+
+Dentro da parte de impressora havera 3 opções sendo elas "hamburguer vegetal" "Refeição balanceada" e "Refeição proteica", todos eles terá a opção de imprimir logo abaixo deles  
+
+<img src="./foodprint-3d/src/assets/exemplos/impressora-exemplo.jpg" width="200">
+
+
+apos utilizar nota-se que o que estava em produção tera sido utilizado
+
+Antes:
+
+<img src="./foodprint-3d/src/assets/exemplos/producao-exemplo.jpg" width="200">
+
+Depois
+
+<img src="./foodprint-3d/src/assets/exemplos/producao-exemplo2.jpg" width="200">
+
+
+
+
+
+/* ========== EQUIPE SOURCE CODE ========== * / 
 
 Alexandre Prazeres
 RM: 573059
@@ -60,5 +101,10 @@ GitHub:
 
 LinkedIn:
 (https://www.linkedin.com/in/júlia-rodrigues-9147593a7/)
+
+
+Link do Repositorio git:
+https://github.com/U-Ale/Foodprint-space
+
 
 
