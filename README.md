@@ -7,6 +7,7 @@ O sistema integra o monitoramento de matérias-primas, controle de estoque e uma
 A plataforma foi desenvolvida para demonstrar como tecnologias digitais podem contribuir para a autonomia alimentar de astronautas durante futuras explorações espaciais.
 
 /* ========== TECNOLOGIAS UTILIZADAS ========== * / 
+
 React
 Vite
 JavaScript
@@ -17,6 +18,7 @@ GitHub
 
 
 /* ========== COMO UTILIZAR ========== * / 
+
 primeiro entre na pasta pelo terminal cmd e colocque o codigo "NPM INSTALL" para puxar os arquivos necessarios para abrir em uma pagina web
 
 Após a instalação dos nodes_modules voce devera ir novamente no cmd digitar o comando "npm run dev" 
@@ -48,7 +50,7 @@ Antes:
 
 <img src="./foodprint-3d/src/assets/exemplos/producao-exemplo.jpg" width="200">
 
-Depois
+Depois de fazer um hamburguer vegetal:
 
 <img src="./foodprint-3d/src/assets/exemplos/producao-exemplo2.jpg" width="200">
 
