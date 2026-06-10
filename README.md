@@ -9,11 +9,17 @@ A plataforma foi desenvolvida para demonstrar como tecnologias digitais podem co
 /* ========== TECNOLOGIAS UTILIZADAS ========== * / 
 
 React
+
 Vite
+
 JavaScript
+
 HTML5
+
 CSS3
+
 Git
+
 GitHub
 
 
