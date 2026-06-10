@@ -110,6 +110,16 @@ GitHub:
 LinkedIn:
 (https://www.linkedin.com/in/júlia-rodrigues-9147593a7/)
 
+/* ========== CONTATO ========== * / 
+
+caso tenha mais alguma duvida sobre o prejeto entrar em contato pelo email:
+
+Soursecodefiap@gmail.com
+
+
+
+
+/* ========== REPOSITORIO ========== * / 
 
 Link do Repositorio git:
 https://github.com/U-Ale/Foodprint-space

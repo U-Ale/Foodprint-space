@@ -14,7 +14,7 @@ function Contato() {
         <h2>📧 Email da Source Code</h2>
 
         <p>
-          sourcecode@foodprint3d.com
+          sourcecodefiap@gmail.com
         </p>
 
       </div>
